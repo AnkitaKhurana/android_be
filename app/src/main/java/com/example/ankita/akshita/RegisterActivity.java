@@ -70,7 +70,7 @@ public class RegisterActivity extends Activity {
 
                         Toast.makeText(getApplication(),jsonstr,Toast.LENGTH_LONG).show();
 
-                        Log.d("Hello", jsonstr);
+                        Log.d("test", jsonstr);
                     }catch (JSONException e) {
                         e.printStackTrace();
                     }
